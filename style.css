@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: fraunces;
+  src: url(fonts/Fraunces_72pt_Soft-Regular.ttf);
+}
+@font-face {
+  font-family: barlow;
+  src: url(fonts/Barlow-Regular.ttf);
+}
+
+.mainContainer {
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* header */
+.orangeContainer {
+  width: 1440px;
+  height: 800px;
+  position: relative;
+  display: flex;
+}
+.orangeimg {
+  position: relative;
+  z-index: -1;
+}
+.logo-and-right-side-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1352px;
+  height: 56px;
+  align-items: center;
+  position: absolute;
+  margin: 46px 40px 0px 40px;
+}
+.logo-container {
+  display: flex;
+}
+.logo-container img {
+  height: 170px;
+  height: 33px;
+}
+.about-services-project-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-services-project-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 47px;
+}
+.about-services-project-container ul li {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  align-items: center;
+  font-family: barlow;
+}
+.about-services-project-container a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+.orangeContainer button {
+  border: none;
+  width: 140px;
+  height: 56px;
+  background-color: white;
+  border-radius: 28px;
+  font-weight: 900;
+  font-family: fraunces;
+  font-size: 15px;
+  cursor: pointer;
+}
+.orangeContainer button:hover {
+  background-color: #ffffff50;
+  color: white;
+  transition: 500ms;
+}
+.orangeContainer button:active {
+  background-color: white;
+  color: black;
+}
+.creativesContainer {
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.orangeContainer h1 {
+  font-size: 56px;
+  color: white;
+  font-family: fraunces;
+  width: 750px;
+  height: 69px;
+  font-weight: black;
+}
+.creativesContainer img {
+  position: absolute;
+  top: 165px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+@media (max-width: 375px) {
+  .about-services-project-container {
+    opacity: 0;
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .orangeimg {
+    width: 720px;
+    height: 800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 375px) {
+  .mainContainer {
+    width: 720px;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .creativesContainer h1 {
+    width: 327px;
+    font-size: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .orangeContainer {
+    width: 720px;
+    height: 800px;
+  }
+}
+@media (max-width: 375px) {
+  .isari {
+    height: 200px;
+  }
+}
