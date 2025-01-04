@@ -107,13 +107,13 @@
   left: 50%;
   transform: translate(-50%, 0%);
 }
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   .about-services-project-container {
     opacity: 0;
     display: none;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   .orangeimg {
     width: 720px;
     height: 800px;
@@ -122,25 +122,25 @@
     justify-content: center;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   .mainContainer {
     width: 720px;
     text-align: center;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   .creativesContainer h1 {
     width: 327px;
     font-size: 50px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   .orangeContainer {
     width: 720px;
     height: 800px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   .isari {
     height: 200px;
   }
